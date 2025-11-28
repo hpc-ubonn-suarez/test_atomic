@@ -48,7 +48,9 @@ Further, we test that
 
 produces the correct result because there is no data race between the accumulation variable and the function arguments.
 
-Finally, we check serially by simulating `omp_get_thread_num()` what the correct value for `sum_fx` actually should be (when using 10 threads and executing the loop chunks sequentially). 
+Finally, we check serially by simulating `omp_get_thread_num()` what the correct value for `sum_fx` actually should be (when using 10 threads and executing the loop chunks sequentially).
+
+Run `./atomic_test` multiple times to see how `sum_fx_crit` and `sum_fx` change!
 
 # atomic_parallel_check
 
