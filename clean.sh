@@ -1,0 +1,1 @@
+rm atomic_parallel_check atomic_test critical_parallel_check serial_check
